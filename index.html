@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas Akhir Web Dasar - Dicoding</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 class="nama-web">SEPUTAR TIMNAS</h1>
+            <p class="p-header"> Selamat datang di Seputar Timnas, portal berita terpercaya yang menyajikan informasi terkini seputar Tim Nasional Indonesia. Kami hadir untuk memberikan update harian mengenai perkembangan dunia sepak bola tanah air, mulai dari jadwal pertandingan, hasil terbaru, analisis mendalam, hingga profil pemain dan pelatih. Nikmati berita eksklusif, wawancara dengan bintang lapangan, dan sorotan prestasi Timnas di berbagai ajang, baik di tingkat Asia maupun dunia</p>
+            <nav>
+                <ul>
+                    <li><a href="#berita">Beranda</a></li>
+                    <li><a href="#pemain">Pemain</a></li>
+                    <li><a href="#berita3">Tiket</a></li>
+                    <li><a href="#berita3">Berita</a></li>
+                </ul>
+            </nav>
+        </header>
+    
+        <main>
+            <div class="content">
+                <article class="artikel1" id="berita">
+                    <img src="img/mees.jpg.webp" alt="">
+                    <h3>Apakah Hilgers & Eliano bisa main buat Timnas Indonesia di bulan Oktober?</h3>
+                    <p>Deadline pendaftaran pemain untuk laga Timnas Indonesia Vs Bahrain dan China bukan pekan depan. Mees Hilgers dan Eliano Reijnders masih punya waktu hingga awal Oktober.</p>
+                    <div class="button">
+                        Baca selengkapnya
+                    </div>
+                </article>
+
+                <article class="artikel2">
+                    <img src="img/timnas.jpeg" alt="">
+                    <h3>Update Ranking FIFA Timnas Indonesia Hari Ini: Resmi Melesat Drastis, Jauh di Atas Malaysia!</h3>
+                    <p>FIFA mengeluarkan ranking terbaru berdasarkan hasil yang didapat para negara anggota mereka di FIFA Matchday September 2024. Ambil contoh Timnas Indonesia</p>
+                    <div class="button">
+                        Baca selengkapnya
+                    </div>
+                </article>
+
+                <article class="artikel3" id="berita3">
+                    <img src="img/timnas1.jpg" alt="">
+                    <h3>Poin yang dbutuhkan Timnas Indonesia untuk kejar Vietnam di Ranking FIFA</h3>
+                    <p>FIFA mengeluarkan ranking terbaru berdasarkan hasil yang didapat para negara anggota mereka di FIFA Matchday September 2024. Ambil contoh Timnas Indonesia</p>
+                    <div class="button">
+                        Baca selengkapnya
+                    </div>
+                </article>
+
+                <article class="artikel3" id="pemain">
+                    <img src="img/pemain.jpg" alt="">
+                    <h3>26 Pemain Timnas Indonesia untuk Laga lawan Arab Saudi dan Australia</h3>
+                    <p>Pelatih Shin Tae-yong memanggil 26 pemain untuk dua pertandingan ronde ketiga Kualifikasi Piala Dunia 2026 melawan Arab Saudi dan Australia. Timnas Indonesia bakal lebih dulu bertandang ke Stadion King Abdullah Sports City, Jeddah, untuk melawan Arab Saudi, Kamis (5/9). Setelah itu menjamu Australia di Stadion Utama Gelora Bung Karno, Jakarta, Selasa (10/9).</p>
+                    <div class="button">
+                        Baca selengkapnya
+                    </div>
+                </article>
+            </div>
+
+            <aside>
+                <!-- Dropdown Button -->
+                <div class="dropdown">
+                    <button class="dropdown-button" onclick="tampilkanDropdown()">Event Timnas</button>
+                    <ul id="isi-dropdown" class="dropdown-content">
+                        <li ><a href="https://inside.fifa.com/fifa-world-ranking/men" target="_blank">FIFA Ranking</a></li>
+                        <li><a href="https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_qualification_(AFC)" target="_blank">World Cup Qualifiers</a></li>
+                        <li><a href="#asiancup">AFC Asian Cup 2027</a></li>
+                        <li><a href="https://en.wikipedia.org/wiki/AFC_U-20_Asian_Cup" target="_blank">AFC U-20 Asian Cup</a></li>
+                        <li><a href="https://id.wikipedia.org/wiki/Piala_Asia_U-17_AFC" target="_blank">AFC U-17 Asian Cup</a></li>
+                    </ul>
+                </div>                
+                <div>
+                    <ul class="list-aside">
+                        <li id="fifaranking"><a href="https://inside.fifa.com/fifa-world-ranking/men" target="_blank">FIFA Ranking</a></li>
+                        <img src="img/fifarank.png" alt="">
+                        <li id="wc"><a href="https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_qualification_(AFC)" target="_blank">World Cup Qualifiers</a></li>
+                        <img src="img/timnas1.jpg" alt="">
+                        <li id="asiancup"><a href="#">AFC Asian Cup 2027</a></li>
+                        <img src="img/timnas2.webp" alt="">
+                        <li id="u20"><a href="https://en.wikipedia.org/wiki/AFC_U-20_Asian_Cup" target="_blank">AFC U-20 Asian Cup</a></li>
+                        <img src="img/afcu20.jpg" alt="">
+                        <li id="u17"><a href="https://id.wikipedia.org/wiki/Piala_Asia_U-17_AFC" target="_blank">AFC U-17 Asian Cup</a></li>
+                        <img src="img/afcu17.jpeg" alt="">
+                    </ul>
+                </div>
+            </aside>
+
+        </main>
+    
+        <footer>
+            <div>
+                <ul>
+                    <li><a href="#">Beranda</a></li>
+                    <li><a href="#">Layanan</a></li>
+                    <li><a href="#">Tentang</a></li>
+                    <li><a href="#">Ketentuan</a></li>
+                    <li><a href="#">Keamanan</a></li>
+                </ul>
+            </div>
+            <p class="footer1">
+                Seputar Timnas &copy; 2024
+            </p>
+        </footer>
+
+
+<!-- js -->
+<script>
+    function tampilkanDropdown() {
+        const isiDropdown = document.getElementById("isi-dropdown");
+        if (isiDropdown.style.display === "block") {
+            isiDropdown.style.display = "none";
+        } else {
+            isiDropdown.style.display = "block";
+        }
+    }
+</script>
+
+    </div>
+</body>
+</html>
